@@ -4,6 +4,7 @@ gzsbapi.dll
 给变量和开发文档的里各种对应，看Release压缩包的开发文档
 
 //DSS_DSM_00003
+
 	 int  postgzsbinv(const char * accessKey, const char * secreKey, 
 		const char * rtalPhacCodg,const char * rtalPhacName, const char * buymedDocCodg, 
 		const double selAmtotal,const char * buymedDate, const char * authPhacCodg, const char * tranIdSn,
@@ -12,6 +13,7 @@ gzsbapi.dll
 		int returncode, char * retype, char * retmsg);
 
 //DSS_DSM_00008
+
 	 int  postgzsbprodep(const char * accessKey, const char * secreKey,
 		const char * authPhacCodg, const char * rtalPhacCodg, const char * rtalPhacName,
 		const char * admdvs, const char * fixmedinsBchno, int recordscount,
@@ -21,6 +23,7 @@ gzsbapi.dll
 		const char ** spec, const char ** dosformType, 
 		int returncode, char * retype, char * retmsg);
 //DSS_DSM_00009
+
 	int postgzsbdepretinvback(const char * accessKey, const char * secreKey,
 		const char * authPhacCodg, const char * rtalPhacCodg,
 		const char * rtalPhacName, const char * admdvs, const char * fixmedinsBchno,
@@ -38,7 +41,9 @@ gzsbapi.dll
 		const char ** pharpracCertNo, const char ** hiFeesetlType, const char ** psnNo,
 		const char ** trdnFlag, const char ** mdtrtSn,
 		int returncode, char * retype, char * retmsg);
+		
 //DSS_DSM_00010
+
 	int postgzsbprodepalter(const char * accessKey, const char * secreKey,
 		const char * authPhacCodg, const char * rtalPhacCodg,
 		const char * rtalPhacName, const char * admdvs, const char * fixmedinsBchno,
@@ -47,13 +52,16 @@ gzsbapi.dll
 		double * pric, double * cnt, const char ** rxFlag, const char ** invChgTime,
 		const char ** invChgOpterName, const char ** memo, 
 		int returncode, char * retype, char * retmsg);
+
 //DSS_DSM_00011
+
 	int  postgzsbdelprodep(const char * accessKey, const char * secreKey,
 		const char * authPhacCodg, const char * rtalPhacCodg,
 		const char * fixmedinsBchno, const char * invDataType, 
 		int returncode, char * retype, char * retmsg);
 
 //DSS_DSM_00005
+
 	int  postgzsbaddprod(const char * accessKey, const char * secreKey,
 		const char * authPhacCodg, const char * rtalPhacCodg, const char * listType, const char * dosformType,
 		const char * drugadmStrdcod, const char * spec, const char * medinsListCodg,
@@ -78,7 +86,9 @@ gzsbapi.dll
 		char * retdrugProdname, char * retrxFlag, char * retprodMol, char * retspecMol,
 		char * retmedEquMgtType, char * retregFilNo,  int returncode,
 		char * retype, char * retmsg);
+		
 //DSS_DSM_00007
+
 	 int  postgzsbdelprod(const char * accessKey, const char * secreKey, const char * medinsListCodg,
 		const char* medinsListInfoSn, const char * authPhacCodg, const char * rtalPhacCodg,
 		int returncode, char * retype, char * retmsg);
