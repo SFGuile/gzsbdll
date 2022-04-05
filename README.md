@@ -73,6 +73,7 @@ gzsbapi.dll
 		char * retype, char * retmsg);
 
 //DSS_DSM_00006
+
 	 int  postgzsbalterprod(const char * accessKey, const char * secreKey,
 		const char * medinsListInfoSn, const char * medinsListCodg, const char * authPhacCodg, const char * rtalPhacCodg,
 		const char * listType, const char * dosformType, const char * drugadmStrdcod,
@@ -94,6 +95,7 @@ gzsbapi.dll
 		int returncode, char * retype, char * retmsg);
 
 //DSS_DSM_00012
+
 	int querytransaction(const char * accessKey, const char * secreKey,
 		const char* authPhacCodg, const char * rtalPhacCodg, const char * buymedDocCodg,
 		const char * buymedDate, double & retselAmt, double & rethiAmt,
@@ -101,6 +103,7 @@ gzsbapi.dll
 		 int returncode, char * retype, char * retmsg);
 
 //DSS_DSM_00013
+
 	int queryprodrelationship(const char * accessKey, const char * secreKey,
 		const char * authPhacCodg, const char * rtalPhacCodg, int pageNum,
 		int pageSize, int & retpagenum, int & retpagesize, int & retsize,
