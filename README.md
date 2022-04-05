@@ -2,6 +2,7 @@
 gzsbapi.dll
 
 此DLL给还在使用PB，DELPHI VB6 等语言还没有HTTP调用功能语言使用
+
 各变量和开发文档的里各种对应，看Release压缩包的开发文档
 
 //DSS_DSM_00003
